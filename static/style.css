@@ -1,0 +1,35 @@
+/* ==========================================================================
+   AI Blog & Content Writer — Hoja de estilos
+   Estilos extraídos del bloque <style> original de index.html.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Estilos base y específicos de la interfaz.
+   -------------------------------------------------------------------------- */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    margin: 5px;
+    width: 80%;
+}
+
+textarea {
+    width: 80%;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* --------------------------------------------------------------------------
+   Mensajes de error generados por script.js.
+   -------------------------------------------------------------------------- */
+.error-message {
+    color: red;
+}

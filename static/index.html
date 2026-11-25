@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Redactor de artículos y contenido con LLaMA 3.">
+    <title>AI Blog & Content Writer</title>
+    <!-- Hoja de estilos extraída del bloque <style> original. -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <!-- Encabezado principal de la aplicación. -->
+    <h1>AI Blog & Content Writer</h1>
+
+    <!-- Controles de entrada del usuario. -->
+    <input type="text" id="topic" placeholder="Introduce un tema (p. ej., la IA en el marketing)">
+    <select id="style">
+        <option value="professional">Profesional</option>
+        <option value="casual">Casual</option>
+        <option value="technical">Técnica</option>
+        <option value="storytelling">Narración de historias</option>
+    </select>
+    <button id="generate-button">Generar contenido</button>
+
+    <h2>Contenido generado:</h2>
+    <textarea id="output" readonly></textarea>
+
+    <!-- Lógica del navegador (se carga después de parsear el HTML). -->
+    <script src="/static/script.js" defer></script>
+
+</body>
+</html>
